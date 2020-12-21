@@ -388,23 +388,23 @@ canvas {
     }
 
     .inside-circule {
-        height: 200px;
-        width: 200px;
+        height: 190px;
+        width: 190px;
     }
 
     .layer-image {
-        width: 140px;
+        width: 130px;
     }
 
     .white-circle {
         background-color: rgb(255, 255, 255);
-        height: 170px;
-        width: 170px;
-        margin: 6% auto auto;
+        height: 150px;
+        width: 150px;
+        margin: 10% auto auto;
     }
 
     .cloud img {
-        width: 153px;
+        width: 140px;
     }
 
     .cloud-content p {
@@ -420,8 +420,8 @@ canvas {
     }
 
     .layer5 {
-        top: -37%;
-        right: -49%;
+        top: -36%;
+        right: -47%;
     }
 
     .layer-content {
@@ -432,35 +432,35 @@ canvas {
         top: 23%;
         position: absolute;
         transform: rotate(-100deg);
-        left: -62%;
+        left: -60%;
     }
 
     .layer6 {
         transform: rotate(211deg);
-        bottom: -59%;
+        bottom: -57%;
         left: -24%;
     }
 
     .layer3 {
-        bottom: -63%;
+        bottom: -62%;
     }
 
     .layer4 {
         transform: rotate(106deg);
-        top: 29%;
-        right: -61%;
+        top: 30%;
+        right: -59%;
     }
 
     .layer1 {
         position: absolute;
-        top: -69%;
-        right: 2px;
+        top: -67%;
+        right: -11px;
     }
 
     .layer2 {
         transform: rotate(-53deg);
         top: -39%;
-        left: -47%;
+        left: -43%;
     }
 
     .layer-content3 p {
@@ -500,11 +500,12 @@ canvas {
 
     .layer-content3 {
         right: 29px;
+        top: 49px;
     }
 
     .layer-content4 {
         right: -16% !important;
-        top: 28% !important;
+        top: 21% !important;
     }
 
     .rotate-content {
