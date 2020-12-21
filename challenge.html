@@ -1,0 +1,146 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portfolio</title>
+    <link rel="icon" href="images/faicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="http://fontlibrary.org/face/droid-arabic-kufi" type="text/css" />
+
+
+</head>
+
+<body>
+
+
+
+    <div class="port">
+
+        <div id="particles-js"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-2">
+                    <div class="col-sm-12 col-md-2">
+                        <img class="logo" src="images/wazara2.png">
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-8">
+                    <div class="port-title text-center">
+                        <h3>المملكة العربية السعودية وزارة التعليم
+                            <br>
+                            إدارة التعليم بمحافظة المخواة
+                            <br>
+                            مدرسة ابتدائية ومتوسطة الملح والتربية الخاصة
+                        </h3>
+
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12 col-md-2">
+                    <img class="logo" src="images/wazara.png">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="video-challenge col-sm-12 col-md-4">
+                    <video controls>
+                        <source src="videos/video3.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+
+                <div class="video-challenge col-sm-12 col-md-4">
+                    <video controls>
+                        <source src="videos/video2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-challenge col-sm-12 col-md-4">
+                    <video controls>
+                        <source src="videos/video1.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="video-challenge col-sm-12 col-md-4">
+                    <a class="example-image-link" href="images/sharka1.jpg" data-lightbox="sharka"> <img
+                            src="images/sharka1.jpg">
+                    </a>
+
+                </div>
+
+                <div class="video-challenge col-sm-12 col-md-4">
+                    <a class="example-image-link" href="images/sharka2.jpg" data-lightbox="sharka"> <img
+                            src="images/sharka2.jpg">
+                    </a>
+
+
+                </div>
+                <div class="video-challenge col-sm-12 col-md-4">
+                    <a class="example-image-link" href="images/sharka3.jpg" data-lightbox="sharka"> <img
+                            src="images/sharka3.jpg">
+                    </a>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="lib/stats.js"></script>
+
+    <script src="app.js"></script>
+    <script>
+        var count_particles, stats, update;
+        stats = new Stats;
+        stats.setMode(0);
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.left = '0px';
+        stats.domElement.style.top = '0px';
+        document.body.appendChild(stats.domElement);
+        count_particles = document.querySelector('.js-count-particles');
+        update = function () {
+            stats.begin();
+            stats.end();
+            if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+                count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+            }
+            requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
+    </script>
+</body>
+
+</html>
